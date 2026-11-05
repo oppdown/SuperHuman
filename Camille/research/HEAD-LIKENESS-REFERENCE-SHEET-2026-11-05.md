@@ -1,6 +1,6 @@
 # Camille head-likeness references - 2026-11-05
 
-**Purpose:** let the user choose visual references for the new head sculpt. These are rendered images only. None of the `.blend` files below is a geometry source for the full-body candidate.
+**Purpose:** preserve a comparison and review record for historical head work. These renders are not modeling inputs for the current from-scratch build. None of the `.blend` files below is a geometry source for the full-body candidate.
 
 ## Candidate record
 
@@ -12,7 +12,7 @@
 | v222 fit candidate | [`Camille_Head_Ear_Fit_Test_v222_front_outline_vertex_fit.blend`](head-ear/Camille_Head_Ear_Fit_Test_v222_front_outline_vertex_fit.blend) | `AEC92A8C74DDC39176A71938CD9C89DCA5FAE86C17C50E126F67768667D5C372` | Direct parent v200 | No independent verdict file located in the inspected source folder. | Ears present; front-outline candidate remains unreviewed. |
 | v221 no-ear receiver | [`Camille_Head_Ear_Receiver_v221_no_ears.blend`](head-ear/Camille_Head_Ear_Receiver_v221_no_ears.blend) | `1BB1A0C344F3F22943C51EEFFB9B71CF97EBCCFCC6B867809E8BB994D797051B` | Direct parent v200; separate receiver branch, not a continuation approval of v222 | No fit verdict; it is a receiver intended for later replacement ear work. | No ears by design. |
 
-The existing renders are clay blockouts, not completed facial likenesses. The face-reference images supplied for Camille must be checked alongside them. The user selects the prior render set that should guide likeness; if the selected render and the body sheet disagree, record the conflict and ask the user before sculpting the head. If no render authority is selected, head geometry stays out of scope while body work can proceed after candidate approval.
+The existing renders are clay blockouts, not completed facial likenesses. The user has directed the current model to be built from scratch from the open starter and the supplied body/face references. This historical comparison is retained for audit only; it is not a required input or authority for the current modeling pass.
 
 ## Matched view set
 
@@ -50,6 +50,6 @@ The views below are review images from each listed checkpoint, placed together f
 
 ## Decision record
 
-- User-selected image revision(s): **pending**.
-- These references guide a newly sculpted head on the user's starter mesh; no prior head mesh will be opened as a modeling source, appended, joined, or copied.
-- User approval of the selected image reference set is required before head sculpting, facial-feature creation, eye creation, ear sculpting, or ponytail modeling begins. Until then, only a separately approved body-and-unitard pass may proceed.
+- Modeling-reference status: **excluded from the current from-scratch pass**.
+- The supplied character sheet and face-reference image set are the active 2D appearance references.
+- No prior head mesh or render is to be opened as a modeling input, appended, joined, copied, or used to place Blender geometry.

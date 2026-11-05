@@ -1,6 +1,6 @@
 # Camille head/ear research snapshot
 
-This curated snapshot preserves the source and review context for selected head/ear checkpoints. These files belong to a separate research branch; they are not fitted to the full-body MakeHuman starter.
+This curated snapshot preserves the source and review context for selected head/ear checkpoints. These files belong to a separate research branch; they are not fitted to the full-body MakeHuman starter. Per the current from-scratch modeling direction, these historical models and renders are excluded from the active modeling inputs and geometry pipeline.
 
 ## Status
 
