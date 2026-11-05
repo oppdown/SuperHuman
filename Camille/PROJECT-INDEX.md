@@ -4,7 +4,7 @@ Updated 2026-11-05. This index connects the full-body handoff, the open MakeHuma
 
 ## Current body-build scope
 
-The user's Blender screenshot shows Blender 5.2.1 LTS with `Human_Female_BaseMesh.blend` open. The source copy is [`source-assets/makehuman/Human_Female_BaseMesh.blend`](source-assets/makehuman/Human_Female_BaseMesh.blend). This is the intended starter body for Camille's full-body pass. It is distinct from the separately developed Camille head blockout. The screenshot identifies the open file and visible scene, but no live scene audit has yet measured its geometry, scale, topology, transforms, or rig state.
+The user's Blender screenshot shows Blender 5.2.1 LTS with `Human_Female_BaseMesh.blend` open. The source copy is [`source-assets/makehuman/Human_Female_BaseMesh.blend`](source-assets/makehuman/Human_Female_BaseMesh.blend). This is the intended starter body for Camille's full-body pass. It is distinct from the separately developed Camille head blockout. The saved-file baseline was inspected read-only; see [BASELINE-2026-11-05.md](BASELINE-2026-11-05.md). The Blender screenshot identifies the open file and visible scene; the recorded measurements are from the saved repository copy.
 
 ## Current character handoff
 
@@ -50,4 +50,4 @@ The public repository is [`oppdown/SuperHuman`](https://github.com/oppdown/Super
 
 ## First next step
 
-Complete the read-only baseline audit of the open `Human_Female_BaseMesh.blend`; do not begin a body edit or connect the earlier head/ear meshes before the audit, scope approval, and candidate tolerances are agreed.
+Agree the delivery target, endpoint verification method, candidate scope, and numeric acceptance tolerance. The baseline report found a 1.59123 m Z bounds extent versus the 1.651 m assigned stature, but the anatomy endpoints are not identified, so stature compliance remains unknown. Do not begin a body edit or connect the earlier head/ear meshes before those decisions and explicit candidate approval.
