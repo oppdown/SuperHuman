@@ -1,0 +1,75 @@
+{
+  "character": "Camille",
+  "fictional_adult": true,
+  "age_years": 28,
+  "revision_date": "2026-11-05",
+  "status": "Latest athletic visual design pass with multipage Blender modeling guide; not a measured 3D mesh",
+  "stature": {
+    "value_cm": 165.1,
+    "feet_inches": "5 ft 5 in",
+    "basis": "User-assigned design anchor",
+    "definition": "Barefoot floor to anatomical skull vertex, excluding hair",
+    "supersedes_cm": 181.6,
+    "measured_from_photos": false
+  },
+  "appearance": {
+    "complexion": "Fair neutral-warm, subtle natural freckles; avoid orange/sunburned cast, muddy mottling and oily shine",
+    "hair": "Blonde ponytail, hair away from face and ears",
+    "wardrobe": "Opaque gray fitted sleeveless ankle-length athletic bodysuit; bare feet",
+    "physique": "Highly defined professional runner; near-chiseled athletic definition, firm lower abdomen/adductors, defined glute-hamstring transition",
+    "latest_local_changes": [
+      "More muscle mass at the marked upper/central posterolateral glutes in rear and profile",
+      "Slightly reduced triceps mass",
+      "Daintier ears slightly lower and closer to skull",
+      "Slenderer elbows and fingers",
+      "Trimmed outer-thigh bulges to user annotation",
+      "Selected closer-foot stance"
+    ],
+    "thigh_clearance": "Follow latest appearance references; earlier 0.75-inch clearance increase was a design request, not verified image measurement",
+    "body_fat_change": {
+      "requested_delta_percentage_points": -2.5,
+      "absolute_percentage": null,
+      "baseline_percentage": null,
+      "status": "Aesthetic direction only; not measurable from these images"
+    }
+  },
+  "reference_views": [
+    "camille-front.png",
+    "camille-left-side.png",
+    "camille-rear.png",
+    "camille-top-best-angle.png",
+    "camille-bottom-best-angle.png",
+    "camille-top-best-angle.png",
+    "camille-bottom-best-angle.png",
+    "camille-top-best-angle.png",
+    "camille-bottom-best-angle.png",
+    "camille-top-best-angle.png",
+    "camille-bottom-best-angle.png"
+  ],
+  "exact_top_bottom": {
+    "status": "BEST_APPROXIMATE_ANGLES_INCLUDED_AT_USER_DIRECTION",
+    "orthographic_zero_degree_verified": false,
+    "files": [
+      "camille-top-best-angle.png",
+      "camille-bottom-best-angle.png"
+    ],
+    "usage": "Appearance references only; render exact top and bottom from the completed mesh."
+  },
+  "measurements": {
+    "status": "Multipage modeling and rigging guide delivered",
+    "physical_measurements_verified": false,
+    "height_cm": 165.1,
+    "height_basis": "user-assigned barefoot floor to anatomical skull vertex",
+    "other_values": "working estimates, provisional targets, or unknown as labeled in the sheet and JSON"
+  },
+  "cross_view_registration": {
+    "status": "UNVERIFIED for current body revision",
+    "note": "Separate image generations do not establish identical 3D geometry, camera parameters or exact landmark alignment."
+  },
+  "coordinate_convention_for_future_blender_work": {
+    "up": "+Z",
+    "character_forward": "-Y",
+    "anatomical_left": "+X",
+    "anatomical_right": "-X"
+  }
+}
