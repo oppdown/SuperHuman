@@ -1,0 +1,350 @@
+{
+  "character": "Camille",
+  "version_date": "2026-11-05",
+  "fictional_adult_age_years": 28,
+  "status": "Modeling guide: one assigned height plus unverified image-derived/design targets; no physical scan",
+  "units": "meters for XYZ, centimeters for linear dimensions",
+  "blender_axes": {
+    "up": "+Z",
+    "forward": "-Y",
+    "anatomical_left": "+X",
+    "anatomical_right": "-X",
+    "origin": "midpoint between soles at floor plane"
+  },
+  "assigned_scale": {
+    "height_m": 1.651,
+    "height_cm": 165.1,
+    "height_display": "5 ft 5 in",
+    "definition": "barefoot floor to anatomical skull vertex excluding hair",
+    "confidence": "user-assigned design constant"
+  },
+  "appearance": "Adult muscular professional runner; near-chiseled athletic definition, firm lower abdomen/adductors, current marked glute mass, slightly reduced triceps, slender elbows/fingers, petite tucked ears, fair neutral-warm complexion, blonde ponytail, opaque charcoal sleeveless unitard.",
+  "measurement_policy": "Decimal formatting is coordinate convenience, not measurement precision. Do not treat camera estimates as verified physical facts.",
+  "head_targets_cm": {
+    "anatomical_skull_vertex_to_chin": 22.9,
+    "visible_hair_crown_to_chin": 23.5,
+    "hairline_to_chin_estimate": 18.5,
+    "pupil_center_spacing_estimate": 6.0,
+    "apparent_cheek_level_skin_width_estimate": 12.7,
+    "nose_projection_estimate_range": [
+      1.3,
+      2.0
+    ],
+    "nose_projection_estimate_center": 1.6,
+    "ear_height_current_design_provisional_range": [
+      4.7,
+      5.0
+    ],
+    "basis": "working proportions only; generated face references, estimated IPD scaling, current smaller ears not directly remeasured"
+  },
+  "body_measurements_not_observable_from_references": [
+    "bust circumference",
+    "underbust circumference",
+    "waist circumference",
+    "hip circumference",
+    "neck circumference",
+    "upper-arm circumference",
+    "thigh circumference",
+    "calf circumference",
+    "actual body-fat percentage",
+    "arm span in a neutral T-pose"
+  ],
+  "bodyfat_direction": {
+    "requested_change_percentage_points": -2.5,
+    "absolute_value": null,
+    "baseline_value": null,
+    "status": "aesthetic direction only"
+  },
+  "landmarks_xyz_m": [
+    {
+      "name": "Floor / sole contact",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "status": "Assigned origin"
+    },
+    {
+      "name": "Ankle joint center",
+      "x": 0.055,
+      "y": 0.0,
+      "z": 0.095,
+      "status": "Estimated; verify against foot mesh"
+    },
+    {
+      "name": "Knee joint center",
+      "x": 0.07,
+      "y": 0.0,
+      "z": 0.445,
+      "status": "Estimated patella / hinge center"
+    },
+    {
+      "name": "Hip joint center",
+      "x": 0.085,
+      "y": 0.0,
+      "z": 0.785,
+      "status": "Estimated femoral head center"
+    },
+    {
+      "name": "Crotch / perineal level",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.82,
+      "status": "Approximate garment landmark; not a joint"
+    },
+    {
+      "name": "Natural waist level",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.01,
+      "status": "Approximate narrow waist level"
+    },
+    {
+      "name": "Navel center",
+      "x": 0.0,
+      "y": -0.01,
+      "z": 1.0,
+      "status": "Visual estimate; Y is forward-negative"
+    },
+    {
+      "name": "Lower sternum / xiphoid",
+      "x": 0.0,
+      "y": -0.015,
+      "z": 1.19,
+      "status": "Approximate centerline"
+    },
+    {
+      "name": "Shoulder joint / glenohumeral",
+      "x": 0.205,
+      "y": 0.0,
+      "z": 1.325,
+      "status": "Estimated; mirror X for right"
+    },
+    {
+      "name": "Elbow joint center",
+      "x": 0.16,
+      "y": 0.0,
+      "z": 0.99,
+      "status": "Estimated; arms relaxed"
+    },
+    {
+      "name": "Wrist joint center",
+      "x": 0.135,
+      "y": 0.0,
+      "z": 0.77,
+      "status": "Estimated; arms relaxed"
+    },
+    {
+      "name": "Middle fingertip",
+      "x": 0.145,
+      "y": -0.02,
+      "z": 0.675,
+      "status": "Estimated relaxed hand pose"
+    },
+    {
+      "name": "Neck base / sternal notch",
+      "x": 0.0,
+      "y": -0.005,
+      "z": 1.405,
+      "status": "Approximate"
+    },
+    {
+      "name": "Chin underside",
+      "x": 0.0,
+      "y": -0.03,
+      "z": 1.422,
+      "status": "Working design anchor"
+    },
+    {
+      "name": "Eye pupil center",
+      "x": 0.03,
+      "y": -0.072,
+      "z": 1.525,
+      "status": "Face estimate; mirrored bilateral pair"
+    },
+    {
+      "name": "Ear lobe",
+      "x": 0.073,
+      "y": 0.0,
+      "z": 1.485,
+      "status": "Provisional; current dainty ear not directly scaled"
+    },
+    {
+      "name": "Ear superior helix",
+      "x": 0.073,
+      "y": 0.0,
+      "z": 1.534,
+      "status": "Provisional; verify on sculpt"
+    },
+    {
+      "name": "Nose tip",
+      "x": 0.0,
+      "y": -0.105,
+      "z": 1.505,
+      "status": "Profile-derived direction only; Y uncertain"
+    },
+    {
+      "name": "Anatomical skull vertex",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.651,
+      "status": "User-assigned stature endpoint; excludes hair"
+    }
+  ],
+  "rig_starter": [
+    {
+      "bone": "root",
+      "span_or_anchor": "ground / world",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "0.000",
+      "note": "Non-deforming master"
+    },
+    {
+      "bone": "pelvis",
+      "span_or_anchor": "pelvic center",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "0.790",
+      "note": "Primary hip control"
+    },
+    {
+      "bone": "spine.01",
+      "span_or_anchor": "lower abdomen",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "0.900",
+      "note": "Deforms abdomen"
+    },
+    {
+      "bone": "spine.02",
+      "span_or_anchor": "waist",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "1.010",
+      "note": "Deforms waist"
+    },
+    {
+      "bone": "spine.03",
+      "span_or_anchor": "lower chest",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "1.170",
+      "note": "Rib cage"
+    },
+    {
+      "bone": "chest",
+      "span_or_anchor": "upper chest",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "1.285",
+      "note": "Upper torso / shoulder parent"
+    },
+    {
+      "bone": "neck",
+      "span_or_anchor": "neck base to jaw",
+      "x_m": "0.000",
+      "y_m": "-0.005",
+      "z_m": "1.405",
+      "note": "Neck chain; add one mid-neck bone if needed"
+    },
+    {
+      "bone": "head",
+      "span_or_anchor": "skull center to crown",
+      "x_m": "0.000",
+      "y_m": "0.000",
+      "z_m": "1.535",
+      "note": "Head pivot near atlanto-occipital joint, not at crown"
+    },
+    {
+      "bone": "clavicle.L",
+      "span_or_anchor": "sternal end to shoulder",
+      "x_m": "+0.105",
+      "y_m": "0.000",
+      "z_m": "1.365",
+      "note": "Shoulder girdle"
+    },
+    {
+      "bone": "upper_arm.L",
+      "span_or_anchor": "shoulder to elbow",
+      "x_m": "+0.205",
+      "y_m": "0.000",
+      "z_m": "1.325",
+      "note": "Mirror X for .R"
+    },
+    {
+      "bone": "forearm.L",
+      "span_or_anchor": "elbow to wrist",
+      "x_m": "+0.160",
+      "y_m": "0.000",
+      "z_m": "0.990",
+      "note": "Mirror X for .R"
+    },
+    {
+      "bone": "hand.L",
+      "span_or_anchor": "wrist to palm center",
+      "x_m": "+0.135",
+      "y_m": "-0.010",
+      "z_m": "0.770",
+      "note": "Palm axis points forward/down"
+    },
+    {
+      "bone": "thigh.L",
+      "span_or_anchor": "hip to knee",
+      "x_m": "+0.085",
+      "y_m": "0.000",
+      "z_m": "0.785",
+      "note": "Mirror X for .R; preserve runner muscle"
+    },
+    {
+      "bone": "shin.L",
+      "span_or_anchor": "knee to ankle",
+      "x_m": "+0.070",
+      "y_m": "0.000",
+      "z_m": "0.445",
+      "note": "Mirror X for .R"
+    },
+    {
+      "bone": "foot.L",
+      "span_or_anchor": "ankle to ball",
+      "x_m": "+0.055",
+      "y_m": "-0.035",
+      "z_m": "0.095",
+      "note": "Forward is -Y"
+    },
+    {
+      "bone": "toe.L",
+      "span_or_anchor": "ball to toe tip",
+      "x_m": "+0.055",
+      "y_m": "-0.165",
+      "z_m": "0.035",
+      "note": "Mirror X for .R"
+    }
+  ],
+  "finger_targets": {
+    "hand_length_wrist_crease_to_middle_tip_cm": [
+      16.5,
+      18.0
+    ],
+    "digit_segment_method": "Use proximal/middle/distal phalanges for index-middle-ring-little; thumb has proximal/distal phalanges; build each length from joint centers on the actual hand mesh.",
+    "nail_plate": "short natural oval/squoval; nail bed and plate are surface details and should not drive skeletal proportions",
+    "status": "image-scale estimate only; verify after hand blockout"
+  },
+  "references": {
+    "front": "camille-front.png",
+    "side": "camille-left-side.png",
+    "rear": "camille-rear.png",
+    "top": "camille-top-best-angle.png",
+    "bottom": "camille-bottom-best-angle.png",
+    "top_bottom_note": "User accepted the best available generated angles. Neither can be certified as a 0-degree orthographic camera view; use for appearance only."
+  },
+  "sources": [
+    "Blender Manual 5.1 Rigify Basic Usage: https://docs.blender.org/manual/en/5.1/addons/rigging/rigify/basics.html",
+    "Blender Manual 5.0 Armature Structure: https://docs.blender.org/manual/en/5.0/animation/armatures/structure.html",
+    "Blender Extensions Unity Rig: https://extensions.blender.org/add-ons/unity-rig/"
+  ],
+  "local_blender_setup": {
+    "version": "5.2.1 LTS",
+    "rigify": "enabled in user preferences",
+    "mpfb": "already present; left unchanged; generic base is not Camille"
+  }
+}

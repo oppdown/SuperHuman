@@ -1,0 +1,31 @@
+{
+  "package": "Camille Athletic Character Sheet",
+  "date": "2026-11-05",
+  "pdf": "camille-athletic-character-sheet-2026-11-05.pdf",
+  "measurements": "camille-blender-measurements-2026-11-05.json",
+  "views": [
+    {
+      "file": "camille-front.png",
+      "status": "latest generated visual reference"
+    },
+    {
+      "file": "camille-left-side.png",
+      "status": "latest generated visual reference; anatomical left profile"
+    },
+    {
+      "file": "camille-rear.png",
+      "status": "latest generated visual reference"
+    },
+    {
+      "file": "camille-top-best-angle.png",
+      "status": "best available user-approved approximate angle; not verified orthographic"
+    },
+    {
+      "file": "camille-bottom-best-angle.png",
+      "status": "best available user-approved approximate angle; not verified orthographic"
+    }
+  ],
+  "height_cm": 165.1,
+  "height_status": "user-assigned",
+  "other_measurements": "estimated, provisional, or unknown; see PDF and JSON"
+}

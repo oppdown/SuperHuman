@@ -1,0 +1,65 @@
+{
+  "revision": "2026-11-05",
+  "images": [
+    {
+      "name": "camille-front.png",
+      "src": "camille-front.png",
+      "view": "front",
+      "status": "CURRENT_GENERATED_VISUAL_REFERENCE",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "sha256": "d3e76b552dd05ad8235f7fa00b36a7fee79883c38e16f1d1da0708ef98b36e47",
+      "mode": "built-in image_gen",
+      "physical_dimensions_verified": false,
+      "orthographic_projection_verified": false
+    },
+    {
+      "name": "camille-left-side.png",
+      "src": "camille-left-side.png",
+      "view": "anatomical left profile, nose image-left",
+      "status": "CURRENT_GENERATED_VISUAL_REFERENCE",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "sha256": "b8cec174f33107135ba2a4f08d9252bc7c4feb0214d84fb7f7ff49149648b4de",
+      "mode": "built-in image_gen",
+      "physical_dimensions_verified": false,
+      "orthographic_projection_verified": false
+    },
+    {
+      "name": "camille-rear.png",
+      "src": "camille-rear.png",
+      "view": "rear",
+      "status": "CURRENT_GENERATED_VISUAL_REFERENCE",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "sha256": "9d139a99218a64c8acd981632e1264bdd2ab7c4ce9ca5e3b6c3629ab587c0d13",
+      "mode": "built-in image_gen",
+      "physical_dimensions_verified": false,
+      "orthographic_projection_verified": false
+    }
+  ],
+  "excluded_rejected_views": [
+    {
+      "src": "exec-51ff989f-3faf-4532-b2cd-166c97ce46c0.png",
+      "reason": "User rejected perspective underside angle; not zero degrees"
+    },
+    {
+      "src": "exec-684cae7f-51d4-430c-b3dd-32fe2e9608d7.png",
+      "reason": "Oblique overhead; not zero degrees"
+    },
+    {
+      "src": "exec-e66120d2-9bce-4783-bf47-fd79155a9b43.png",
+      "reason": "User still rejects projection as angled; excluded"
+    },
+    {
+      "src": "exec-3f35393a-d08f-4b09-aac2-693b22d54e2f.png",
+      "reason": "User still rejects projection as angled; excluded"
+    }
+  ]
+}
