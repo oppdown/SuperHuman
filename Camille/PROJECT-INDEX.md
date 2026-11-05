@@ -48,6 +48,6 @@ No workflow can promise zero mistakes. The project will make errors easier to ca
 
 The public repository is [`oppdown/SuperHuman`](https://github.com/oppdown/SuperHuman), with Camille under this folder and room for other characters. Native `.blend` files use Git LFS. The MakeHuman starter's asset provenance is recorded in [`ASSET-PROVENANCE.md`](source-assets/makehuman/ASSET-PROVENANCE.md); the exact upstream package/version of the local `.blend` is unverified. No blanket reuse license is granted by this repository.
 
-## First next step
+## Next step
 
-Agree the delivery target, endpoint verification method, candidate scope, and numeric acceptance tolerance. The baseline report found a 1.59123 m Z bounds extent versus the 1.651 m assigned stature, but the anatomy endpoints are not identified, so stature compliance remains unknown. Do not begin a body edit or connect the earlier head/ear meshes before those decisions and explicit candidate approval.
+The baseline report found a 1.59123 m Z bounds extent versus the 1.651 m assigned stature, but the anatomical endpoints are not identified, so stature compliance remains unknown. The user selected ±0.1 mm as the geometric stature tolerance, requested a rigged and animation-ready deliverable, and specified that only the open MakeHuman starter supplies model geometry. Earlier Camille head work may guide likeness through user-selected 2D renders only; see the [head-likeness comparison sheet](research/HEAD-LIKENESS-REFERENCE-SHEET-2026-11-05.md). See [candidate brief 01](CANDIDATE-BRIEF-01.md), which remains unapproved for geometry edits. Obtain explicit approval of the named candidate brief before any `.blend` edit.
