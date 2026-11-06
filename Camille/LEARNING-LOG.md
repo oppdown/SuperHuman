@@ -64,7 +64,7 @@ Copy this template for each numbered candidate pass. Do not overwrite earlier en
 - Intended change and reason: introduce a first modest symmetric athletic silhouette adjustment while preserving the starter-derived topology and scene state.
 - Measurements and scene/evaluation state: topology 19,158 vertices / 18,486 polygons; stored shape-key values, object transforms, metric units, Mask viewport/render state, and all vertex Z coordinates preserved. Applied 18 mm per-foot horizontal convergence at low Z as an artist-selected provisional value, not a PDF measurement. Stature remains UNKNOWN.
 - Matching views / redline links: `C02/P02_front.png`, `C02/P02_left_profile.png`, `C02/P02_rear.png`; hashed in `C02/PASS-02-C02-review.md`. P01 A-pose differs from PDF arms-at-sides; no pixel-registration claim.
-- Observed result: subtle waist, shoulder/chest, pelvis/glute, leg and foot-stance changes. Head/face/ears and arms/hands remain baseline; hair, unitard, materials and rig remain future work. Candidate is not finished or accepted.
+- Observed result: subtle waist, shoulder/chest, pelvis/glute, leg and foot-stance changes. Head/face/ears and arms/hands remain baseline; hair, unitard, materials and rig remain future work. Candidate is not finished; accepted as an intermediate checkpoint only.
 - Reviewer report and exact reviewed hash: PASS for candidate SHA-256 `51D8C1EF8EEA3F3260DC6B5D0B48C86F69686237FC5775923B2033828174420F`; first coordinate comparison was withdrawn because same-named Blender library objects were aliased; corrected independent-process audit confirmed changes.
 - Planner disposition (ACCEPT / REJECT / NEEDS USER INPUT): ACCEPT as an intermediate broad-silhouette checkpoint only.
 - Numbered corrections: document posterior thigh/glute dark patch as an inherited P01 source artifact with cause not isolated, not a P02 result; defer cleanup. The recommendation was shared with the user and planner before applying.
@@ -89,3 +89,46 @@ Copy this template for each numbered candidate pass. Do not overwrite earlier en
 - Corrections: none requested. Next zone requires its own bounded redline and reviewer/planner loop.
 - What this pass taught us: small symmetric deformation fields can make a controlled waist refinement while preserving vertical datums, but visible appearance remains subtle at this stage and does not establish final likeness or stature.
 - Remaining UNKNOWN / NOT_CHECKED: final endpoints and stature; head likeness; shoulders/axilla and arms/hands; circumferences and hidden anatomy; hair/unitard/materials; rig and motion behavior.
+
+
+### Pass: `C04 P02 - Zone 2 first attempt` (failed; retained as history)
+
+- Date and author: 2026-11-05; Codex modeling pass with independent reviewer and planner.
+- Source `.blend`: `Camille/modeling/candidates/C03/Camille_C03_P02_zone3-waist-refine.blend`; `B404F590559DDC3298038075DB6EA6B2005176015F2A6AE2233B7E6F076DCA7C`.
+- Failed candidate `.blend`: `Camille/modeling/candidates/C04/Camille_C04_P02_zone2-chest-ribcage-blockout.blend`; `E17C55B5CF4F003CB5CDBEC526D7916181163D2BA2812758B32C4380CC660AD3`.
+- Review: FAIL. C03 waist changes extended to Z=1.1710 m; C04 changes began at Z=1.1487 m, overlapping the protected Zone 3 band. Other preservation checks passed, but this boundary violation blocked acceptance.
+- Planner disposition: REJECT C04 for promotion and require a new numbered candidate; C04 remains unchanged history.
+- Learning: a gaussian/fade boundary must be compared to the actual prior edited-Z extent before changing an adjacent region.
+
+### Pass: `C05 P02 - Zone 2 boundary-corrected chest/ribcage` (reviewed intermediate)
+
+- Date and author: 2026-11-05; Codex modeling pass with independent reviewer and planner.
+- Source `.blend`: `Camille/modeling/candidates/C03/Camille_C03_P02_zone3-waist-refine.blend`; `B404F590559DDC3298038075DB6EA6B2005176015F2A6AE2233B7E6F076DCA7C`.
+- Candidate `.blend`: `Camille/modeling/candidates/C05/Camille_C05_P02_zone2-chest-ribcage-boundary-corrected.blend`; `D784BCADE78C11506763AA5F0ECD676487F823528CF561FA2613DADBD51A1367`.
+- Approved scope: upper/mid chest/ribcage redline `C03/P02-zone2-chest-ribcage-redline.png`; reviewer/planner accepted exact pair before edits.
+- Review: PASS. C03 waist changed points end at Z=1.1710 m; C05 changed points begin at or above Z=1.1721 m. No shared changed vertices, Z movement, topology/key-value/transform/Mask change, or axilla edits observed.
+- Planner disposition: ACCEPT as an intermediate upper-chest/ribcage checkpoint only.
+- What this pass taught us: adjacent sculpt fields need a measurable zero-change gap and a direct changed-vertex overlap check; preserve failed candidates as history and make corrections in new numbered files.
+- Remaining UNKNOWN / NOT_CHECKED: final stature, hidden anatomy, circumferences, face likeness, outfit, rig and motion checks.
+
+### Pass: `C06 P02 - Zone 4 pelvis/glute blockout` (reviewed intermediate)
+
+- Date and author: 2026-11-05; Codex modeling pass with independent reviewer and planner.
+- Source `.blend`: `Camille/modeling/candidates/C05/Camille_C05_P02_zone2-chest-ribcage-boundary-corrected.blend`; `D784BCADE78C11506763AA5F0ECD676487F823528CF561FA2613DADBD51A1367`.
+- Candidate `.blend`: `Camille/modeling/candidates/C06/Camille_C06_P02_zone4-pelvis-glute-blockout.blend`; `9B11A411F66EBB44DB85688D616B9EF1FC85294551A9BA6E69AA8853DB5706BF`.
+- Scope: reviewed Zone 4 pelvis/glute redline and note in C05. The front boundary remains approximate; only visible posterior profile contour is used. No hidden anatomy or measurements inferred.
+- Audit: changed source vertices across five shape-key blocks are confined to local Z `0.73518–0.92493 m`, symmetric, with zero Z displacement. Maximum X/Y components are `2.624/8.000 mm`; maximum vertex shift is `8.416 mm`. Topology, key values, transforms, Mask, metric units and all protected body zones match C05.
+- Review views: C06 `P02_front.png`, `P02_left_profile.png`, and `P02_rear.png`; exact hashes recorded in `C06/PASS-02-C06-review.md`.
+- Reviewer: PASS on the exact candidate hash; smooth contour change in the approved region. The inherited posterior patch remains excluded from sculpting.
+- Planner: ACCEPT as an intermediate Zone 4 checkpoint only; retain C06 unchanged.
+- Whole-character gap: C06 remains in the starter angled-arm pose, with unfinished clay head, no ponytail or unitard. User explicitly confirmed PDF as positive appearance target and rejected screenshot as design guidance.
+- Stature remains UNKNOWN. Face/head/ears, ponytail, unitard/materials, rig, animation behavior, relaxed presentation pose, and final post-rig stature remain future work.
+
+### Pass: `C07 P03 - head/face/hair reference gate` (approved by reviewer/planner; awaiting user review)
+
+- No geometry edit. The PDF remains appearance authority; the rejected three-view screenshot and historical Camille geometry are excluded.
+- Exact board: `Camille/modeling/candidates/C07/P03-head-face-hair-reference-board.png`; SHA-256 `EDE01B37B6AED722E4A711CBD1B60FC5FD2FD1CE5BF4C095B033E399836931F3`.
+- Exact scope note: `Camille/modeling/candidates/C07/P03-head-face-hair-reference-map.md`; SHA-256 `B95EAED58EBACE27417554CD153F600A5AC62A5C14EE6261D90E899DCA325AD7`.
+- Reviewer: PASS; planner: ACCEPT the exact pair. The face reference three-quarter image is retained but explicitly excluded from this front/profile comparison.
+- User approval of this exact reference set is the gate before any head, face, or ear geometry work.
+- If face fit conflicts with the frozen crown/stature datum, stop and resolve the conflict. No crown/sole movement, hidden anatomy inference, or micrometer-precision face claim is authorized by the visual references.
