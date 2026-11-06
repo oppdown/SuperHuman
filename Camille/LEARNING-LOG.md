@@ -73,3 +73,19 @@ Copy this template for each numbered candidate pass. Do not overwrite earlier en
 - What changes in the next pass: preserve this accepted intermediate checkpoint and proceed to the remaining head/neck, arms/hands, muscle-form, likeness, clothing, materials and rig passes in bounded reviewed iterations.
 - Remaining UNKNOWN / NOT_CHECKED items: anatomical endpoints and final stature; head likeness; shoulder/axilla contours; detailed arm/hand proportions; measured circumferences and limb lengths; materials, hair, unitard, rig weights and animation behavior.
 
+
+
+### Pass: `C03 P02 - Zone 3 waist refinement` (reviewed intermediate)
+
+- Date and author: 2026-11-05; Codex modeling pass with independent reviewer and planner.
+- Source `.blend` path and SHA-256: `Camille/modeling/candidates/C02/Camille_C02_P02_full-body-athletic-blockout.blend`; `51D8C1EF8EEA3F3260DC6B5D0B48C86F69686237FC5775923B2033828174420F`.
+- Candidate `.blend` path and SHA-256: `Camille/modeling/candidates/C03/Camille_C03_P02_zone3-waist-refine.blend`; `B404F590559DDC3298038075DB6EA6B2005176015F2A6AE2233B7E6F076DCA7C`.
+- Approved scope: isolated trunk/waist/lower-abdomen zone with open-arrow redline `C02/P02-zone3-reference-redline.png` SHA-256 `4664F9653FEFE1BFF76DC9A00ABA3A615D95CA344211E63B0770F65D973AB85F`; paired note SHA-256 `3508FC350F517CC62ECC645BA78279C4F757F74BF6B84EF4E8EECD7F63FA7531`.
+- Intended change and reason: very modest additional waist taper and anterior depth refinement within a bounded trunk zone; exact generated-reference dimensions were not inferred.
+- Scene/evaluation state: 19,158 vertices / 18,486 polygons, unchanged shape-key values, identity transforms, Mask state preserved, zero Z-coordinate changes. Max per-vertex displacement was 3.661 mm lateral and 1.835 mm anterior by artist-selected field parameters. Stature remains UNKNOWN.
+- Matching views: `C03/P02_front.png` SHA-256 `1F8D5E4C232AE9EA12275E4C82208F7A42C3BE918717EE8B1AB78965B7D565C8`; profile `43D27CB56AE48A7802ABA374A80DC65D8660AA6071CBC79970A567B2AA3BFD7D`; rear `688C7C02C43B4B951B8D8BA9F526EFC04CED6C5B09054CD699716D05C221E024`.
+- Reviewer report and exact hash: PASS for candidate SHA-256 `B404F590559DDC3298038075DB6EA6B2005176015F2A6AE2233B7E6F076DCA7C`; no over-carving observed.
+- Planner disposition: ACCEPT as a Zone 3 intermediate checkpoint only.
+- Corrections: none requested. Next zone requires its own bounded redline and reviewer/planner loop.
+- What this pass taught us: small symmetric deformation fields can make a controlled waist refinement while preserving vertical datums, but visible appearance remains subtle at this stage and does not establish final likeness or stature.
+- Remaining UNKNOWN / NOT_CHECKED: final endpoints and stature; head likeness; shoulders/axilla and arms/hands; circumferences and hidden anatomy; hair/unitard/materials; rig and motion behavior.
